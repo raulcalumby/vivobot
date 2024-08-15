@@ -85,8 +85,6 @@ body {
     position: absolute;
     top: 0;
     left: calc(-2.5rem - 1rem);
-
-    background-image: url(../img/icone-chatbot.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -107,7 +105,7 @@ body {
     top: 0;
     right: calc(-2.5rem - 1rem);
 
-    background-image: url(../img/icone-perfil.svg);
+
     background-repeat: no-repeat;
     background-position: center;
 }
