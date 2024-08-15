@@ -1,0 +1,10 @@
+br/com/raul/vivobot/chatbot/domain/service/CalculadorDeFrete.class
+br/com/raul/vivobot/chatbot/web/dto/PerguntaDto.class
+br/com/raul/vivobot/chatbot/web/controller/ChatController.class
+br/com/raul/vivobot/chatbot/domain/DadosCalculoFrete.class
+br/com/raul/vivobot/chatbot/ChatbotApplication.class
+br/com/raul/vivobot/chatbot/domain/UF.class
+br/com/raul/vivobot/chatbot/infra/openai/OpenAIClient.class
+br/com/raul/vivobot/chatbot/domain/service/ChatbotService.class
+br/com/raul/vivobot/chatbot/infra/openai/ContadorDeTokens.class
+br/com/raul/vivobot/chatbot/infra/openai/DadosRequisicaoChatCompletion.class

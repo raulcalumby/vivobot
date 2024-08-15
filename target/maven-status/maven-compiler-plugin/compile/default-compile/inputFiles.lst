@@ -1,0 +1,10 @@
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/web/dto/PerguntaDto.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/infra/openai/OpenAIClient.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/infra/openai/DadosRequisicaoChatCompletion.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/domain/service/ChatbotService.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/domain/DadosCalculoFrete.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/domain/service/CalculadorDeFrete.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/infra/openai/ContadorDeTokens.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/domain/UF.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/ChatbotApplication.java
+/Users/raulmota/Desktop/chat-bot-vivo/src/main/java/br/com/raul/vivobot/chatbot/web/controller/ChatController.java
