@@ -27,7 +27,7 @@ async function enviarMensagem() {
     chat.appendChild(novaBolhaBot);
     vaiParaFinalDoChat();
 
-    fetch('https://vivobot.onrender.com/chat', {
+    fetch('http://localhost:8080/chat', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

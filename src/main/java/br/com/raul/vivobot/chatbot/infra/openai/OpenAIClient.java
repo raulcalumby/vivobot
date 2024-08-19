@@ -24,7 +24,7 @@ public class OpenAIClient {
     private String threadId;
     private final OpenAiService service;
 
-    public OpenAIClient(@Value("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") String apiKey, @Value("asst_mizpSavUKTfqn9znXsycWz03") String assistantId) {
+    public OpenAIClient(@Value("${app.openai.api.key}") String apiKey, @Value("${app.openai.assistant.id}") String assistantId) {
         this.apiKey = apiKey;
         this.service = new OpenAiService(apiKey, Duration.ofSeconds(60));
         this.assistantId = assistantId;
