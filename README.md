@@ -8,7 +8,7 @@ O código deste projeto foi escrito em português, pois o objetivo principal foi
 
 ## Requisitos
 
-Antes de executar o projeto, é necessário configurar algumas propriedades no arquivo `.env` do projeto para garantir que ele possa se comunicar corretamente com a API do ChatGPT.
+Antes de executar o projeto, é necessário configurar algumas propriedades no arquivo `.properties` do projeto para garantir que ele possa se comunicar corretamente com a API do ChatGPT.
 
 Adicione as seguintes propriedades ao seu arquivo `.properties`:
 
@@ -26,9 +26,9 @@ Oferecer Soluções: Em cada interação, apresente até algumas soluções que 
 Seguir o Script: Você deve seguir um roteiro pré-definido para cada fluxo de atendimento, garantindo que todas as interações permaneçam organizadas e consistentes.
 Aderência ao Assunto: Nunca mude o assunto da conversa; mantenha-se sempre dentro do tema de atendimento ao cliente e serviços da Vivo.
 Sempre pergunte o CPF e Nome do cliente no início. 
-Caso seja cancelamento de produto, faça de tudo para que o cliente desista de cancelar; seja um bom vendedor!
+Caso seja cancelamento de produto, ofereça alternativas e soluções para o cliente; seja um bom vendedor!
 Valide o CPF do cliente (se está correto)."
 
 
-##Uso de Threads:
+## Uso de Threads:
 O projeto utiliza o ChatGPT Assistant, que gera e salva as conversas em uma estrutura de threads. Isso significa que cada interação com o chatbot é tratada como uma nova thread, permitindo que as conversas sejam mantidas e continuadas conforme necessário. Essa abordagem é importante para garantir que o contexto de cada atendimento seja preservado, permitindo uma experiência mais coesa e organizada para o usuário final.
