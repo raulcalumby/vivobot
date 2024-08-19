@@ -1,23 +1,36 @@
-Projeto Java - Consumo da API do ChatGPT Assistant
-Este projeto foi desenvolvido com o intuito de estudar e praticar o consumo de APIs utilizando Java. Ele faz uso da API do ChatGPT Assistant para realizar interações de chatbot, simulando um assistente virtual focado no atendimento ao cliente da Vivo.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Java - Consumo da API do ChatGPT Assistant</title>
+</head>
+<body>
 
-Estrutura do Projeto
-O código deste projeto foi escrito em português, pois o objetivo principal foi o estudo e a familiarização com as práticas de desenvolvimento em Java. Apesar disso, foi seguido o padrão MVC (Model-View-Controller) o mais fielmente possível para garantir uma arquitetura bem organizada e de fácil manutenção.
+    <h1>Projeto Java - Consumo da API do ChatGPT Assistant</h1>
 
-Requisitos
-Antes de executar o projeto, é necessário configurar algumas propriedades no arquivo .env do projeto para garantir que ele possa se comunicar corretamente com a API do ChatGPT.
+    <p>Este projeto foi desenvolvido com o intuito de estudar e praticar o consumo de APIs utilizando Java. Ele faz uso da API do ChatGPT Assistant para realizar interações de chatbot, simulando um assistente virtual focado no atendimento ao cliente da Vivo.</p>
 
-Adicione as seguintes propriedades ao seu arquivo .properties:
+    <h2>Estrutura do Projeto</h2>
 
-plaintext
-Copiar código
+    <p>O código deste projeto foi escrito em português, pois o objetivo principal foi o estudo e a familiarização com as práticas de desenvolvimento em Java. Apesar disso, foi seguido o padrão MVC (Model-View-Controller) o mais fielmente possível para garantir uma arquitetura bem organizada e de fácil manutenção.</p>
+
+    <h2>Requisitos</h2>
+
+    <p>Antes de executar o projeto, é necessário configurar algumas propriedades no arquivo <code>.env</code> do projeto para garantir que ele possa se comunicar corretamente com a API do ChatGPT.</p>
+
+    <p>Adicione as seguintes propriedades ao seu arquivo <code>.env</code>:</p>
+
+    <pre><code>
 app.openai.api.key=
 app.openai.assistant.id=
-Prompt Utilizado
-O prompt abaixo foi configurado no código para definir o comportamento do chatbot:
+    </code></pre>
 
-plaintext
-Copiar código
+    <h2>Prompt Utilizado</h2>
+
+    <p>O prompt abaixo foi configurado no código para definir o comportamento do chatbot:</p>
+
+    <pre><code>
 "Você é um chatbot assistente virtual para a Vivo, focado em atendimento ao cliente. Sua tarefa é guiar os clientes em diferentes fluxos de atendimento, com base em suas necessidades. Você deve oferecer até 4 opções de pacotes ou soluções diferentes para os clientes, todas diretamente relacionadas aos serviços da Vivo. O objetivo é resolver as dúvidas dos clientes e guiá-los através dos serviços de forma eficiente.
 
 Regras:
@@ -29,6 +42,11 @@ Aderência ao Assunto: Nunca mude o assunto da conversa; mantenha-se sempre dent
 Sempre pergunte o CPF e Nome do cliente no início. 
 Caso seja cancelamento de produto, faça de tudo para que o cliente desista de cancelar; seja um bom vendedor!
 Valide o CPF do cliente (se está correto)."
-Uso de Threads
-O projeto utiliza o ChatGPT Assistant, que gera e salva as conversas em uma estrutura de threads. Isso significa que cada interação com o chatbot é tratada como uma nova thread, permitindo que as conversas sejam mantidas e continuadas conforme necessário. Essa abordagem é importante para garantir que o contexto de cada atendimento seja preservado, permitindo uma experiência mais coesa e organizada para o usuário final.
+    </code></pre>
 
+    <h2>Uso de Threads</h2>
+
+    <p>O projeto utiliza o ChatGPT Assistant, que gera e salva as conversas em uma estrutura de threads. Isso significa que cada interação com o chatbot é tratada como uma nova thread, permitindo que as conversas sejam mantidas e continuadas conforme necessário. Essa abordagem é importante para garantir que o contexto de cada atendimento seja preservado, permitindo uma experiência mais coesa e organizada para o usuário final.</p>
+
+</body>
+</html>
